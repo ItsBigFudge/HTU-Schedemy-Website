@@ -45,7 +45,7 @@ export default function InstructorsPage() {
         if (!res.ok) {
           console.error('Failed to fetch instructors from Next.js API route:', res.status, res.statusText);
           // Optionally, try fetching directly from Spring Boot as a fallback or for more detailed error
-          // const directRes = await fetch('http://54.91.109.189:8080/instructor');
+          // const directRes = await fetch('https://54.91.109.189:8080/instructor');
           // if (!directRes.ok) throw new Error(`Direct fetch also failed: ${directRes.statusText}`);
           // const data = await directRes.json();
           // setInstructors(data);

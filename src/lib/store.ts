@@ -8,9 +8,9 @@ import {
   tas as mockInitialTAs, tas
 } from './data';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://18.153.210.189:8080';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://18.153.210.189:8080';
 const API_BASE_URL_ROUTING = 'https://master.d2hh6o27ll1srl.amplifyapp.com/';
-// const API_BASE_URL_ROUTING = 'http://localhost:3001/';
+// const API_BASE_URL_ROUTING = 'https://localhost:3001/';
 
 interface AppState {
   // Data fetched via API is not stored in this client-side state by default.
