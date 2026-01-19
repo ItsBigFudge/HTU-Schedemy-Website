@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const TA_API_URL = 'https://api.ayoub.htufolio.com:8080/instructor/ta';
+const TA_API_URL = 'schedemy-alb-1452462431.eu-central-1.elb.amazonaws.com:8080/instructor/ta';
 
 export async function GET() {
   try {

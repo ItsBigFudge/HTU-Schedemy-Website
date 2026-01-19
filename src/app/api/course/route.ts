@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('https://api.ayoub.htufolio.com:8080/courses', { cache: 'no-store' });
+    const res = await fetch('schedemy-alb-1452462431.eu-central-1.elb.amazonaws.com:8080/courses', { cache: 'no-store' });
 
     if (!res.ok) {
       throw new Error(`Failed to fetch courses. Status: ${res.status}`);
